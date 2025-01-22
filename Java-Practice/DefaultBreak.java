@@ -8,7 +8,7 @@ public class DefaultBreak {
             System.out.println("Shyd galat ho");
             break;
             default:
-            System.out.println("Tujhe nahi pta bhai");
+            System.out.println("Tujhe nahi pta bro");
             //case "BSF":
             //System.out.println("Haan ab sahi bola na");
 
