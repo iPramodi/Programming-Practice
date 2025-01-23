@@ -17,7 +17,7 @@ class Circle {
     };
 
    double Circle:: getDia() {
-        return rad*2;
+        cout << rad*2;
 
     }
     void Circle:: Setrad(double rad){
@@ -27,6 +27,13 @@ class Circle {
 
 int main() {
 Circle prop;
-prop.Setrad(2.5);
+
+prop.Setrad(2);
+cout << "\n";
+prop.getDia();
+/*cout <<"\n"<< a;
+printf("\nDiameter is : %.2f",a);
+*/
+
 
 }
