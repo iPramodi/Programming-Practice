@@ -1,4 +1,7 @@
 public class Operators {
+    public static void main(String[] args) {
+        System.out.println(2%10);
+    }
     /*
     *Prefix and postfix operators in java
     ++,--
