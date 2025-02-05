@@ -13,7 +13,7 @@ public class Lecture10_Ques {
             arr[i] = sc.nextInt();
             System.out.println();
         }
-//
+
         for (int j = 0; j < size - 1; j++) { // Outer loop for multiple passes
             for (int i = 1; i < size; i++) { // Inner loop for swapping adjacent elements
                 if (arr[i - 1] > arr[i]) {
