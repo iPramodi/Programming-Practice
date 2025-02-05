@@ -2,6 +2,8 @@
 using namespace std;
 int main()
 {
-   cout <<"Hello world"; 
+   string s = "Pramod";
+   cout <<s;
+
 }
 
