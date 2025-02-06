@@ -1,7 +1,7 @@
 import java.util.*; 
 public class Constructors {
     private int[][] Arry;
-    private int r,c;
+    int r,c;
 //This is to give the size of the Arryay
     public void CreateArr(){
         Scanner sc = new Scanner(System.in);
