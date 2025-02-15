@@ -1,4 +1,7 @@
 public class Arrayy {
+    //Methods and Functions are different 
+    //Methods are functions  defined in a class and functions are a predefined codes in a block.
+    
     public static void main(String[] args) {
         String[] itemS = {"Laptop", "lamp","Bottle"}; //This is how we define a array in Java
 
