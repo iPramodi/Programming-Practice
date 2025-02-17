@@ -4,7 +4,10 @@ import java.util.Scanner;
 public class TwoDAarr {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+<<<<<<< HEAD
 
+=======
+>>>>>>> main
         System.out.println("Enter the Size of the Array in terms of Rows and Columns: ");
         int r= sc.nextInt(),c = sc.nextInt();
         int [][] arr = new int[r][c];
@@ -30,7 +33,14 @@ public class TwoDAarr {
   }
 
 
+<<<<<<< HEAD
 
+=======
+{
+
+
+}
+>>>>>>> main
 System.out.println(arr[0][1]);
     }
     

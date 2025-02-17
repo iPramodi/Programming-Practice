@@ -6,14 +6,15 @@ class NumberClassifier {
     int[] e, o;
     int countE = 0, countO = 0;
 
-    // Constructor that takes the array to initialize even and odd arrays
-    NumberClassifier(int[] arr) {
-        this.e = new int[arr.length]; // Initialize 'e' array to hold even numbers
-        this.o = new int[arr.length]; // Initialize 'o' array to hold odd numbers
+    // Constructor 
+    NumberClassifier() {
+        
     }
 
     // Method to classify numbers into even and odd arrays
     public void classifyNumbers(int[] a) {
+        e = new int[n];
+        o = new int[n];
         for (int i = 0; i < a.length; i++) {
             if (a[i] % 2 == 0) {
                 e[countE] = a[i]; // Add to even array
@@ -26,7 +27,7 @@ class NumberClassifier {
     }
 
     // Method to print even numbers
-    public void printEvenNumbers() {
+    public void printEvenNumbers(int[] arr) {
         for (int i = 0; i < countE; i++) { // Print only valid even numbers
             System.out.print(e[i] + " ");
         }
@@ -34,7 +35,7 @@ class NumberClassifier {
     }
 
     // Method to print odd numbers
-    public void printOddNumbers() {
+    public void printOddNumbers(int[] arr) {
         for (int i = 0; i < countO; i++) { // Print only valid odd numbers
             System.out.print(o[i] + " ");
         }
