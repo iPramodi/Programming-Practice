@@ -1,0 +1,28 @@
+import java.util.*;
+
+class GeometryCalculator {
+    private int width
+}
+
+class NeoQuesU2 {
+    public static void main(String[] args) {
+        GeometryCalculator calculator = new GeometryCalculator();
+        Scanner scanner = new Scanner(System.in);
+        int shape = scanner.nextInt();
+        if (shape ==1 ){
+            double sideLength = scanner.nextDouble();
+            double cubeVolume = calculator.calculateVolume(sideLength);
+            System.out.printf("Volume of the cube: %.2f%n",cubeVolume);
+        
+        }
+        else if(shape ==2){
+            double baseArea = scanner.nextDouble();
+            double height = scanner.nextDouble();
+            double pyramidVolume = calculator.calculateVolume(baseArea,height);
+            System.out.printf("Volume of the pyramid: %.2f%n",pyramidVolume); 
+            
+        }
+
+
+    }
+}
